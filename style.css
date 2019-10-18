@@ -3,27 +3,41 @@
     src: url('fonts/Burn_The_Witch.ttf');
 }
 
+@font-face {
+    font-family: ThinkNothing;
+    src: url('fonts/ThinkNothing.otf');
+}
+
 body {
     padding-top: 100px;
 }
 
 h1 {
     font-family: 'BurnTheWitch';
-    font-size: 70px;
+    font-size: 90px;
     font-weight: 400;
     text-align: center;
     line-height: 1;
-    max-width: 240px;
+    max-width: 275px;
     margin: 0 auto;
+}
+
+p {
+    font-family: 'ThinkNothing';
+    text-align: center;
 }
 
 @media (min-width: 767px) {
     body {
         padding-top: 200px;
     }
-    
+
     h1 {
         font-size: 150px;
         max-width: 460px;
+    }
+
+    p {
+        font-size: 20px;
     }
 }
